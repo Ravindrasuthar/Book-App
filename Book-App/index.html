@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Book-App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="icon" href="icon_path" type="images/Logo/logo.jpg">
+    </head>
+    <body>
+        <div class="wrapper-body">
+            <div class="header-main">
+            <div class="header">
+                 <div class="logo-main">
+                   <div class="logo">
+                    <img src="/images/Logo/logo.jpg" height="30px" width="30px">
+                   </div>
+                   <div class="logo-name">
+                    <span>Book</span>
+                   </div>
+                 </div>
+                <div id="toggle">
+                       <div id="circle">
+                          
+                       </div>
+                </div>
+                <div class="signup">
+                    <button class="login-btn" type="button">Sign up<ion-icon id="arrow" name="arrow-forward-outline"></ion-icon></button>
+                </div>
+             </div>
+             </div>
+
+
+             <div class="container">
+                <div class="left-nav">
+                 <div class="left-cat">
+                  <ul class="all-cat">
+                        <li class="category-item active" id="all-categories">All Catagories</li>
+                        <li class="category-item Business-Books">
+                        Business Books
+                        </li><li class="category-item Combined-Print">
+                        Combined Print and E-Book Fiction
+                        </li><li class="category-item Young-Adult">
+                        Young Adult Hardcover
+                        </li><li class="category-item Picture-Books">
+                        Picture Books
+                        </li><li class="category-item Hardcover-Fiction">
+                        Hardcover Fiction
+                        </li><li class="category-item Childrens-Middle">
+                        Childrens Middle Grade Hardcover
+                        </li><li class="category-item Graphic-Books">
+                        Graphic Books and Manga
+                        </li><li class="category-item Advice-How">
+                        Advice How-To and Miscellaneous
+                        </li><li class="category-item Audio-Nonfiction">
+                        Audio Nonfiction
+                        </li><li class="category-item Trade-Fiction">
+                        Trade Fiction Paperback
+                        </li><li class="category-item Paperback-Nonfiction">
+                        Paperback Nonfiction
+                        </li><li class="category-item Middle-Grade">
+                        Middle Grade Paperback Monthly
+                        </li><li class="category-item Hardcover-Nonfiction">
+                        Hardcover Nonfiction
+                        </li><li class="category-item Young-Adult-Paper">
+                        Young Adult Paperback Monthly
+                        </li><li class="category-item Series-Books">
+                        Series Books
+                        </li><li class="category-item Combined-Print-EBook">
+                        Combined Print and E-Book Nonfiction
+                        </li><li class="category-item Mass-Market">
+                        Mass Market Monthly
+                        </li><li class="category-item Audio-Fiction">
+                        Audio Fiction
+                        </li>
+                  </ul>
+                 </div>
+                 <div class="support-uk">
+                   <div class="support-header">
+                    <h2>Support Ukraine</h2>
+                    <!-- <img src="images/Logo/coat-of-arms.png" height="32px" width="28px" style="color: white;"> -->
+                   </div>
+                   <div class="support-content">
+                    <div class="support-data">
+                        <p>01</p>
+                        <img src="images/Support-Uk/01-found-1.a728105c.png">
+                    </div>
+                    <div class="support-data">
+                        <p>02</p>
+                        <img src="images/Support-Uk/02-found-1.feda50b1.png">
+                    </div>
+                    <div class="support-data">
+                        <p>03</p>
+                        <img src="images/Support-Uk/03-found-1.89276286.png">
+                    </div>
+                    <div class="support-data">
+                        <p>04</p>
+                        <img src="images/Support-Uk/04-found-1.cbff70d4.png">
+                    </div>
+                    <div class="support-data">
+                        <p>05</p>
+                        <img src="images/Support-Uk/05-found-1.0fdab6a1.png">
+                    </div>
+                    <div class="support-data">
+                        <p>06</p>
+                        <img src="images/Support-Uk/06-found-1.c5359439.png">
+                    </div>
+                    <div class="support-data">
+                        <p>07</p>
+                        <img src="images/Support-Uk/07-found-1.174022ef.png">
+                    </div>
+                    <div class="support-data">
+                        <p>08</p>
+                        <img src="images/Support-Uk/08-found-1.7aca5d21.png">
+                    </div>
+                    <div class="support-data">
+                        <p>09</p>
+                        <img src="images/Support-Uk/09-found-1.8d6aef68.png">
+                    </div>
+                   </div>
+                   <div class="support-arrow">
+                    <p><ion-icon name="chevron-down-outline"></ion-icon></p>
+                   </div>
+                 </div>
+                </div>
+                <div class="right-nav">
+                    <h1>Best Sellers <span style="color:#4F2EE8;">Books</span></h1>
+
+                    <div class="main-card" id="01">
+                        <div class="cards-heading">
+                          <h3>ADVICE HOW-TO AND MISCELLANEOUS</h3>
+                        </div>
+                        <div class="cards cards01" id="Advice How-To and Miscellaneous01">
+                          <div class="card" id="Advice011">
+                            <img src="https://storage.googleapis.com/du-prd/books/images/9780735211292.jpg" 
+                             alt="ATOMIC HABITS" class="books__card-title-img" width="180" height="256">
+                             <h3 class="title">ATOMIC HABITS</h3>
+                             <p class="author">James Clear</p>
+                          </div>
+                          <div class="card" id="Advice012">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063226050.jpg" alt="THE LOVE STORIES OF THE BIBLE SPEAK" width="180" height="256" loading="lazy">
+                             <h3 class="title">THE LOVE STORIES...</h3>
+                             <p class="author">Shannon Bream</p>
+                          </div>
+                          <div class="card" id="Advice013">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781984826398.jpg" alt="SWEET ENOUGH" width="180" height="256" loading="lazy">
+                             <h3 class="title">SWEET ENOUGH</h3>
+                             <p class="author">Alison Roman</p>
+                          </div>
+                          <div class="card" id="Advice014">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593652886.jpg" alt="THE CREATIVE ACT" width="180" height="256" loading="lazy">
+                             <h3 class="title">THE CREATIVE ACT</h3>
+                             <p class="author">Rick Rubin with Neil Strauss</p>
+                          </div>
+                          <div class="card" id="Advice015">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062976581.jpg" alt="THE BOY, THE MOLE, THE FOX AND THE HORSE" width="180" height="256" loading="lazy">
+                             <h3 class="title">THE BOY, THE MOLE,...</h3>
+                             <p class="author">Charlie Mackesy</p>
+                          </div>
+                          <div class="card" id="Advice016">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781538753903.jpg" alt="EAT TO BEAT YOUR DIET" width="180" height="256" loading="lazy">
+                             <h3 class="title">EAT TO BEAT YOUR...</h3>
+                             <p class="author">William W.Li</p>
+                          </div>
+                          <div class="card" id="Advice017">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593489307.jpg" alt="LIFE WORTH LIVING" width="180" height="256" loading="lazy">
+                             <h3 class="title">LIFE WORTH LIVING</h3>
+                             <p class="author">MIROSLAV VOLF,MATTHEW...</p>
+                          </div>
+                          <div class="card" id="Advice018">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316453189.jpg" alt="YOUNG FOREVER" width="180" height="256" loading="lazy">
+                             <h3 class="title">YOUNG FOREVER</h3>
+                             <p class="author">Mark Hyman</p>
+                          </div>
+                          <div class="card" id="Advice019">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062457714.jpg" alt="THE SUBTLE ART OF NOT GIVING A F*CK" width="180" height="256" loading="lazy">
+                             <h3 class="title">THE SUBTLE ART OF...</h3>
+                             <p class="author">Mark Manson</p>
+                          </div>
+                          <div class="card" id="Advice0110">
+                            <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781682688427.jpg" alt="RECIPETIN EATS DINNER" width="180" height="256" loading="lazy">
+                             <h3 class="title">RECIPETIN EATS...</h3>
+                             <p class="author">Nagi Maehashi</p>
+                          </div>
+                        </div>
+                        <div class="cards-button" id="Advice01btn">
+                          <button type="button">SEE MORE</button>
+                      </div>
+                    </div>
+
+                    <div class="main-card" id="02">
+                      <div class="cards-heading">
+                        <h3>AUDIO FICTION</h3>
+                      </div>
+                      <div class="cards cards02" id="Audio Fiction01">
+                        <div class="card" id="Advice021">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg" alt="LESSONS IN CHEMISTRY" width="180" height="256" loading="lazy">
+                           <h3 class="title">LESSONS IN...</h3>
+                           <p class="author">Bonnie Garmus</p>
+                        </div>
+                        <div class="card" id="Advice022">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781524798628.jpg" alt="DAISY JONES &amp; THE SIX" width="180" height="256" loading="lazy">
+                           <h3 class="title">DAISY JONES & THE...</h3>
+                           <p class="author">Taylor Jenkins Reid</p>
+                        </div>
+                        <div class="card" id="Advice023">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063204157.jpg" alt="REMARKABLY BRIGHT CREATURES" width="180" height="256" loading="lazy">
+                           <h3 class="title">REMARKABLY BRIGHT...</h3>
+                           <p class="author">Shel Van Pelt</p>
+                        </div>
+                        <div class="card" id="Advice024">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg" alt="IT ENDS WITH US" width="180" height="256" loading="lazy">
+                           <h3 class="title">IT ENDS WITH US</h3>
+                           <p class="author">Colleen Hoover</p>
+                        </div>
+                        <div class="card" id="Advice025">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781984879295.jpg" alt="SOMEONE ELSE'S SHOES" width="180" height="256" loading="lazy">
+                           <h3 class="title">SOMEONE ELSE'S...</h3>
+                           <p class="author">Jojo Moyes</p>
+                        </div>
+                        <div class="card" id="Advice026">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781538748367.jpg" alt="I WILL FIND YOU" width="180" height="256" loading="lazy">
+                           <h3 class="title">I WILL FIND YOU</h3>
+                           <p class="author">Harlan Coben</p>
+                        </div>
+                        <div class="card" id="Advice027">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063251922.jpg" alt="DEMON COPPERHEAD" width="180" height="256" loading="lazy">
+                           <h3 class="title">DEMON COPPERHEAD</h3>
+                           <p class="author">Barbara Kingsolver</p>
+                        </div>
+                        <div class="card" id="Advice028">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg" alt="IT STARTS WITH US" width="180" height="256" loading="lazy">
+                           <h3 class="title">IT STARTS WITH US</h3>
+                           <p class="author">Collen Hoover</p>
+                        </div>
+                        <div class="card" id="Advice029">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg" alt="VERITY" width="180" height="256" loading="lazy">
+                           <h3 class="title">VERITY</h3>
+                           <p class="author">Colleen Hoover</p>
+                        </div>
+                        <div class="card" id="Advice0210">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593243732.jpg" alt="HELLO BEAUTIFUL" width="180" height="256" loading="lazy">
+                           <h3 class="title">HELLO BEAUTIFUL</h3>
+                           <p class="author">Ann Napolitano</p>
+                        </div>
+                        <div class="card" id="Advice0211">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg" alt="THE SEVEN HUSBANDS OF EVELYN HUGO" width="180" height="256" loading="lazy">
+                          <h3 class="title">THE SEVEN HUSBANDS...</h3>
+                          <p class="author">Taylor Jenkins Reid</p>
+                        </div>
+                        <div class="card" id="Advice0212">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668002179.jpg" alt="FAIRY TALE" width="180" height="256" loading="lazy">
+                          <h3 class="title">FAIRY TALE</h3>
+                          <p class="author">Stephen King</p>
+                        </div>
+                        <div class="card" id="Advice0213">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593548103.jpg" alt="BURNER" width="180" height="256" loading="lazy">
+                          <h3 class="title">BURNER</h3>
+                          <p class="author">Mark Greaney</p>
+                        </div>
+                        <div class="card" id="Advice0214">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593321201.jpg" alt="TOMORROW, AND TOMORROW, AND TOMORROW" width="180" height="256" loading="lazy">
+                          <h3 class="title">TOMORROW, AND...</h3>
+                          <p class="author">Gabrielle Zevin</p>
+                        </div>
+                        <div class="card" id="Advice0215">
+                          <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593331309.jpg" alt="STORM WATCH" width="180" height="256" loading="lazy">
+                          <h3 class="title">STORM WATCH</h3>
+                          <p class="author">C.J Box</p>
+                        </div>
+                      </div>
+                      <div class="cards-button" id="Advice02btn">
+                        <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="03">
+                    <div class="cards-heading">
+                      <h3>AUDIO NONFICTION</h3>
+                    </div>
+                    <div class="cards cards03" id="Audio Nonfiction01">
+                    <div class="card" id="Advice031">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593593806.jpg" alt="SPARE" width="180" height="256" loading="lazy">
+                      <h3 class="title">SPARE</h3>
+                      <p class="author">Prince Harry</p>
+                    </div>
+                    <div class="card" id="Advice032">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781982185824.jpg" alt="I'M GLAD MY MOM DIED" width="180" height="256" loading="lazy">
+                      <h3 class="title">I'M GLAD MY MOM...</h3>
+                      <p class="author">Jennette McCurdy</p>
+                    </div>
+                    <div class="card" id="Advice033">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593236598.jpg" alt="OUTLIVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">OUTLIVE</h3>
+                      <p class="author">PETER ATTIA WITH BILL...</p>
+                    </div>
+                    <div class="card" id="Advice034">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593139134.jpg" alt="GREENLIGHTS" width="180" height="256" loading="lazy">
+                      <h3 class="title">GREENLIGHTS</h3>
+                      <p class="author">Matthew McConaughey</p>
+                    </div>
+                    <div class="card" id="Advice035">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063276000.jpg" alt="THE COURAGE TO BE FREE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE COURAGE TO BE...</h3>
+                      <p class="author">Ron DeSantis</p>
+                    </div>
+                    <div class="card" id="Advice036">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781496472670.jpg" alt="ALL MY KNOTTED-UP LIFE" width="180" height="256" loading="lazy">
+                      <h3 class="title">ALL MY KNOTTED-UP...</h3>
+                      <p class="author">Beth Moore</p>
+                    </div>
+                    <div class="card" id="Advice037">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780670785933.jpg" alt="THE BODY KEEPS THE SCORE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE BODY KEEPS THE...</h3>
+                      <p class="author">Bessel van dark Kolk</p>
+                    </div>
+                    <div class="card" id="Advice038">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593237465.jpg" alt="THE LIGHT WE CARRY" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE LIGHT WE CARRY</h3>
+                      <p class="author">Michelle Obama</p>
+                    </div>
+                    <div class="card" id="Advice039">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063037328.jpg" alt="FINDING ME" width="180" height="256" loading="lazy">
+                      <h3 class="title">FINDING ME</h3>
+                      <p class="author">Viola Davis</p>
+                    </div>
+                    <div class="card" id="Advice0310">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781466874961.jpg" alt="EXTREME OWNERSHIP" width="180" height="256" loading="lazy">
+                      <h3 class="title">EXTREME OWNERSHIP</h3>
+                      <p class="author">Jocko Willink and Leif Babin</p>
+                    </div>
+                    <div class="card" id="Advice0311">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063224629.jpg" alt="PARIS" width="180" height="256" loading="lazy">
+                      <h3 class="title">PARIS</h3>
+                      <p class="author">Paris Hilton</p>
+                    </div>
+                    <div class="card" id="Advice0312">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063309661.jpg" alt="SAVED" width="180" height="256" loading="lazy">
+                      <h3 class="title">SAVED</h3>
+                      <p class="author">Benjamin Hall</p>
+                    </div>
+                    <div class="card" id="Advice0313">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063230477.jpg" alt="THE END OF THE WORLD IS JUST THE BEGINNING" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE END OF THE...</h3>
+                      <p class="author">Peter Zeihan</p>
+                    </div>
+                    <div class="card" id="Advice0314">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250866448.jpg" alt="FRIENDS, LOVERS, AND THE BIG TERRIBLE THING" width="180" height="256" loading="lazy">
+                      <h3 class="title">FRIENDS,LOVERS,...</h3>
+                      <p class="author">Matthew Perry</p>
+                    </div>
+                    <div class="card" id="Advice0315">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062316097.jpg" alt="SAPIENS" width="180" height="256" loading="lazy">
+                      <h3 class="title">SAPIENS</h3>
+                      <p class="author">Yuval Noah Harari</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice03btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="04">
+                    <div class="cards-heading">
+                      <h3>BUSINESS BOOKS</h3>
+                    </div>
+                    <div class="cards cards04" id="Business Books01">
+                    <div class="card" id="Advice041">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780735211292.jpg" alt="ATOMIC HABITS" width="180" height="256" loading="lazy">
+                      <h3 class="title">ATOMIC HABITS</h3>
+                      <p class="author">James Clear</p>
+                    </div>
+                    <div class="card" id="Advice042">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593652886.jpg" alt="THE CREATIVE ACT" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE CREATIVE ACT</h3>
+                      <p class="author">Rick Rubin with Neil Strauss</p>
+                    </div>
+                    <div class="card" id="Advice043">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593239919.jpg" alt="POVERTY, BY AMERICA" width="180" height="256" loading="lazy">
+                      <h3 class="title">POVERTY,BY...</h3>
+                      <p class="author">Matthew Desmond</p>
+                    </div>
+                    <div class="card" id="Advice044">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063224629.jpg" alt="PARIS" width="180" height="256" loading="lazy">
+                      <h3 class="title">PARIS</h3>
+                      <p class="author">Paris Hilton</p>
+                    </div>
+                    <div class="card" id="Advice045">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250853479.jpg" alt="WIN EVERY ARGUMENT" width="180" height="256" loading="lazy">
+                      <h3 class="title">WIN EVERY ARGUMENT</h3>
+                      <p class="author">Mehdi Hasan</p>
+                    </div>
+                    <div class="card" id="Advice046">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593238714.jpg" alt="IT'S OK TO BE ANGRY ABOUT CAPITALISM" width="180" height="256" loading="lazy">
+                      <h3 class="title">IT'S OK TO BE...</h3>
+                      <p class="author">BERNIE SANDERS WITH JOHN...</p>
+                    </div>
+                    <div class="card" id="Advice047">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780399592522.jpg" alt="DARE TO LEAD" width="180" height="256" loading="lazy">
+                      <h3 class="title">DARE TO LEAD</h3>
+                      <p class="author">Brene Brown</p>
+                    </div>
+                    <div class="card" id="Advice048">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781401971908.jpg" alt="THE GREATNESS MINDSET" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE GREATNESS...</h3>
+                      <p class="author">Lewis Howes</p>
+                    </div>
+                    <div class="card" id="Advice049">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg" alt="THINKING, FAST AND SLOW" width="180" height="256" loading="lazy">
+                      <h3 class="title">THINKING, FAST AND...</h3>
+                      <p class="author">Daniel Kahneman</p>
+                    </div>
+                    <div class="card" id="Advice0410">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781466874961.jpg" alt="EXTREME OWNERSHIP" width="180" height="256" loading="lazy">
+                      <h3 class="title">EXTREME OWNERSHIP</h3>
+                      <p class="author">Jocko Willink and Leif Babin</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice04btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="05">
+                    <div class="cards-heading">
+                      <h3>CHILDRENS MIDDLE GRADE HARDCOVER</h3>
+                    </div>
+                    <div class="cards cards05" id="Childrens Middle Grade Hardcover01">
+                    <div class="card" id="Advice051">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780375899881.jpg" alt="WONDER" width="180" height="256" loading="lazy">
+                      <h3 class="title">WONDER</h3>
+                      <p class="author">R.J. Palacio</p>
+                    </div>
+                    <div class="card" id="Advice052">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780545880831.jpg" alt="REFUGEE" width="180" height="256" loading="lazy">
+                      <h3 class="title">REFUGEE</h3>
+                      <p class="author">Alan Gratz</p>
+                    </div>
+                    <div class="card" id="Advice053">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781492670025.jpg" alt="THE COMPLETE COOKBOOK FOR YOUNG CHEFS" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE COMPLETE...</h3>
+                      <p class="author">America's Test Kitchen Kids</p>
+                    </div>
+                    <div class="card" id="Advice054">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338735673.jpg" alt="TWO DEGREES" width="180" height="256" loading="lazy">
+                      <h3 class="title">TWO DEGREES</h3>
+                      <p class="author">Alan Gratz</p>
+                    </div>
+                    <div class="card" id="Advice055">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250147424.jpg" alt="ODDER" width="180" height="256" loading="lazy">
+                      <h3 class="title">ODDER</h3>
+                      <p class="author">Katherine Applegate.</p>
+                    </div>
+                    <div class="card" id="Advice056">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316056618.jpg" alt="FREEWATER" width="180" height="256" loading="lazy">
+                      <h3 class="title">FREEWATER</h3>
+                      <p class="author">Amina Luqman-Dawson</p>
+                    </div>
+                    <div class="card" id="Advice057">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338795028.jpg" alt="ICEBERG" width="180" height="256" loading="lazy">
+                      <h3 class="title">ICEBERG</h3>
+                      <p class="author">Jennifer A. Nielsen</p>
+                    </div>
+                    <div class="card" id="Advice058">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593533239.jpg" alt="THE SWIFTS" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE SWIFTS</h3>
+                      <p class="author">Beth Lincoln.</p>
+                    </div>
+                    <div class="card" id="Advice059">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063212312.jpg" alt="ON AIR WITH ZOE WASHINGTON" width="180" height="256" loading="lazy">
+                      <h3 class="title">ON AIR WITH ZOE...</h3>
+                      <p class="author">Janae Marks</p>
+                    </div>
+                    <div class="card" id="Advice0510">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781534488335.jpg" alt="FINALLY SEEN" width="180" height="256" loading="lazy">
+                      <h3 class="title">FINALLY SEEN</h3>
+                      <p class="author">Kelly Yang</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice05btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="06">
+                    <div class="cards-heading">
+                      <h3>COMBINED PRINT AND E-BOOK FICTION</h3>
+                    </div>
+                    <div class="cards cards06" id="Combined Print and E-Book Fiction01">
+                    <div class="card" id="Advice061">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781524798628.jpg" alt="DAISY JONES &amp; THE SIX" width="180" height="256" loading="lazy">
+                      <h3 class="title">DAISY JONES & THE...</h3>
+                      <p class="author">Taylor Jenkins Reid</p>
+                    </div>
+                    <div class="card" id="Advice062">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg" alt="IT STARTS WITH US" width="180" height="256" loading="lazy">
+                      <h3 class="title">IT STARTS WITH US</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice063">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg" alt="LESSONS IN CHEMISTRY" width="180" height="256" loading="lazy">
+                      <h3 class="title">LESSION IN...</h3>
+                      <p class="author">Bonnie Garmus</p>
+                    </div>
+                    <div class="card" id="Advice064">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg" alt="IT ENDS WITH US" width="180" height="256" loading="lazy">
+                      <h3 class="title">IT ENDS WITH US</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice065">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg" alt="THE SEVEN HUSBANDS OF EVELYN HUGO" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE SEVEN HUSBANDS...</h3>
+                      <p class="author">Taylor Jenkins Reid</p>
+                    </div>
+                    <div class="card" id="Advice066">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593243732.jpg" alt="HELLO BEAUTIFUL" width="180" height="256" loading="lazy">
+                      <h3 class="title">HELLO BEAUTIFUL</h3>
+                      <p class="author">Ann Napolitano</p>
+                    </div>
+                    <div class="card" id="Advice067">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg" alt="VERITY" width="180" height="256" loading="lazy">
+                      <h3 class="title">VERITY</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice068">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501117299.jpg" alt="HANG THE MOON" width="180" height="256" loading="lazy">
+                      <h3 class="title">HANG THE MOON</h3>
+                      <p class="author">Jeannette Walls</p>
+                    </div>
+                    <div class="card" id="Advice069">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780525539803.jpg" alt="LOYALTY" width="180" height="256" loading="lazy">
+                      <h3 class="title">LOYALTY</h3>
+                      <p class="author">Lisa Scottoline</p>
+                    </div>
+                    <div class="card" id="Advice0610">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781538748367.jpg" alt="I WILL FIND YOU" width="180" height="256" loading="lazy">
+                      <h3 class="title">I WILL FIND YOU</h3>
+                      <p class="author">Harlan Coben</p>
+                    </div>
+                    <div class="card" id="Advice0611">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781335004888.jpg" alt="NEVER NEVER" width="180" height="256" loading="lazy">
+                      <h3 class="title">NEVER NEVER</h3>
+                      <p class="author">COLLEEN HOOVER AND TARRYN...</p>
+                    </div>
+                    <div class="card" id="Advice0612">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781476753195.jpg" alt="UGLY LOVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">UGLY LOVE</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice0613">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501171345.jpg" alt="THE LAST THING HE TOLD ME" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE LAST THING HE...</h3>
+                      <p class="author">Laura Dave</p>
+                    </div>
+                    <div class="card" id="Advice0614">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593321201.jpg" alt="TOMORROW, AND TOMORROW, AND TOMORROW" width="180" height="256" loading="lazy">
+                      <h3 class="title">TOMORROW, AND...</h3>
+                      <p class="author">Gabrielle Zevin</p>
+                    </div>
+                    <div class="card" id="Advice0615">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668021910.jpg" alt="HEART BONES" width="180" height="256" loading="lazy">
+                      <h3 class="title">HEART BONES</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice06btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="07">
+                    <div class="cards-heading">
+                      <h3>COMBINED PRINT AND E-BOOK NONFICTION</h3>
+                    </div>
+                    <div class="cards cards07" id="Combined Print and E-Book Nonfiction01">
+                    <div class="card" id="Advice071">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593236598.jpg" alt="OUTLIVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">OUTLIVE</h3>
+                      <p class="author">PETER ATTIA WITH BILL...</p>
+                    </div>
+                    <div class="card" id="Advice072">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780670785933.jpg" alt="THE BODY KEEPS THE SCORE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE BODY KEEPS THE...</h3>
+                      <p class="author">Bessel van der kolk</p>
+                    </div>
+                    <div class="card" id="Advice073">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593239919.jpg" alt="POVERTY, BY AMERICA" width="180" height="256" loading="lazy">
+                      <h3 class="title">POVERTY, BY...</h3>
+                      <p class="author">Matthew Desmond</p>
+                    </div>
+                    <div class="card" id="Advice074">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593593806.jpg" alt="SPARE" width="180" height="256" loading="lazy">
+                      <h3 class="title">SPARE</h3>
+                      <p class="author">Prince Harry</p>
+                    </div>
+                    <div class="card" id="Advice075">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780525657743.jpg" alt="CRYING IN H MART" width="180" height="256" loading="lazy">
+                      <h3 class="title">CRYING IN H MART</h3>
+                      <p class="author">Michelle Zauner</p>
+                    </div>
+                    <div class="card" id="Advice076">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781982185824.jpg" alt="I'M GLAD MY MOM DIED" width="180" height="256" loading="lazy">
+                      <h3 class="title">I'M GLAD MY MOM...</h3>
+                      <p class="author">Jennette McCurdy</p>
+                    </div>
+                    <div class="card" id="Advice077">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063309661.jpg" alt="SAVED" width="180" height="256" loading="lazy">
+                      <h3 class="title">SAVED</h3>
+                      <p class="author">Benjamin Hall</p>
+                    </div>
+                    <div class="card" id="Advice078">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593237465.jpg" alt="THE LIGHT WE CARRY" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE LIGHT WE CARRY</h3>
+                      <p class="author">Michelle Obama</p>
+                    </div>
+                    <div class="card" id="Advice079">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063276000.jpg" alt="THE COURAGE TO BE FREE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE COURAGE TO BE...</h3>
+                      <p class="author">Ron DeSantis</p>
+                    </div>
+                    <div class="card" id="Advice0710">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780060959470.jpg" alt="ALL ABOUT LOVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">ALL ABOUT LOVE</h3>
+                      <p class="author">bell hooks</p>
+                    </div>
+                    <div class="card" id="Advice0711">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781571313560.jpg" alt="BRAIDING SWEETGRASS" width="180" height="256" loading="lazy">
+                      <h3 class="title">BRAIDING...</h3>
+                      <p class="author">Robin Wall Kimmerer</p>
+                    </div>
+                    <div class="card" id="Advice0712">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781324006503.jpg" alt="THE UNDERTOW" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE UNDERTOW</h3>
+                      <p class="author">Jeff Sharlet</p>
+                    </div>
+                    <div class="card" id="Advice0713">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg" alt="THINKING, FAST AND SLOW" width="180" height="256" loading="lazy">
+                      <h3 class="title">THINKING, FAST AND...</h3>
+                      <p class="author">Daniel Kahneman</p>
+                    </div>
+                    <div class="card" id="Advice0714">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063224629.jpg" alt="PARIS" width="180" height="256" loading="lazy">
+                      <h3 class="title">PARIS</h3>
+                      <p class="author">Paris Hilton</p>
+                    </div>
+                    <div class="card" id="Advice0715">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780385534246.jpg" alt="KILLERS OF THE FLOWER MOON" width="180" height="256" loading="lazy">
+                      <h3 class="title">KILLERS OF THE...</h3>
+                      <p class="author">David Grann</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice07btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="08">
+                    <div class="cards-heading">
+                      <h3>GRAPHIC BOOKS AND MANGA</h3>
+                    </div>
+                    <div class="cards cards08" id="Graphic Books and Manga01">
+                    <div class="card" id="Advice081">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338801910.jpg" alt="TWENTY THOUSAND FLEAS UNDER THE SEA" width="180" height="256" loading="lazy">
+                      <h3 class="title">TWENTY THOUSAND...</h3>
+                      <p class="author">Dav Pilkey</p>
+                    </div>
+                    <div class="card" id="Advice082">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338846621.jpg" alt="COLLABORATIONS" width="180" height="256" loading="lazy">
+                      <h3 class="title">COLLABORATIONS</h3>
+                      <p class="author">Dav Pilkey</p>
+                    </div>
+                    <div class="card" id="Advice083">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781974736287.jpg" alt="SPY X FAMILY, VOL. 9" width="180" height="256" loading="lazy">
+                      <h3 class="title">SPY X FAMILY, VOL....</h3>
+                      <p class="author">Tatsuya Endo</p>
+                    </div>
+                    <div class="card" id="Advice084">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338730890.jpg" alt="MOON RISING" width="180" height="256" loading="lazy">
+                      <h3 class="title">MOON RISING</h3>
+                      <p class="author">Tui T. Sutherland.</p>
+                    </div>
+                    <div class="card" id="Advice085">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338616101.jpg" alt="MARY ANNE'S BAD LUCK MYSTERY" width="180" height="256" loading="lazy">
+                      <h3 class="title">MARY ANNE'S BAD...</h3>
+                      <p class="author">Ann M. Martin.</p>
+                    </div>
+                    <div class="card" id="Advice086">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781974736270.jpg" alt="JUJUTSU KAISEN, VOL. 19" width="180" height="256" loading="lazy">
+                      <h3 class="title">JUJUTSU KAISEN,...</h3>
+                      <p class="author">Gege Akutami</p>
+                    </div>
+                    <div class="card" id="Advice087">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338680454.jpg" alt="MOTHERING HEIGHTS" width="180" height="256" loading="lazy">
+                      <h3 class="title">MOTHERING HEIGHTS</h3>
+                      <p class="author">Dav Pilkey</p>
+                    </div>
+                    <div class="card" id="Advice088">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338535624.jpg" alt="GRIME AND PUNISHMENT" width="180" height="256" loading="lazy">
+                      <h3 class="title">GRIME AND...</h3>
+                      <p class="author">Dav Pilkey</p>
+                    </div>
+                    <div class="card" id="Advice089">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781974734740.jpg" alt="MY HERO ACADEMIA, VOL. 33" width="180" height="256" loading="lazy">
+                      <h3 class="title">MY HERO ACADEMIA,...</h3>
+                      <p class="author">Kohei Horikoshi</p>
+                    </div>
+                    <div class="card" id="Advice0810">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338236590.jpg" alt="FOR WHOM THE BALL ROLLS" width="180" height="256" loading="lazy">
+                      <h3 class="title">FOR WHOM THE BALL...</h3>
+                      <p class="author">Dav Pilkey</p>
+                    </div>
+                    <div class="card" id="Advice0811">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338762587.jpg" alt="KAREN'S BIRTHDAY" width="180" height="256" loading="lazy">
+                      <h3 class="title">KAREN'S BIRTHDAY</h3>
+                      <p class="author">Ann M. Martin.</p>
+                    </div>
+                    <div class="card" id="Advice0812">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781974709939.jpg" alt="CHAINSAW MAN, VOL. 1" width="180" height="256" loading="lazy">
+                      <h3 class="title">CHAINSAW MAN, VOL....</h3>
+                      <p class="author">Tatsuki Fujimoto</p>
+                    </div>
+                    <div class="card" id="Advice0813">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063256194.jpg" alt="THE BOY, THE MOLE, THE FOX AND THE HORSE: THE ANIMATED STORY" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE BOY, THE MOLE,...</h3>
+                      <p class="author">Charlie Mackesy</p>
+                    </div>
+                    <div class="card" id="Advice0814">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250852564.jpg" alt="INVESTIGATORS: AGENTS OF S.U.I.T." width="180" height="256" loading="lazy">
+                      <h3 class="title">INVESTIGATORS:...</h3>
+                      <p class="author">JOHN PATRICK GREEN AND...</p>
+                    </div>
+                    <div class="card" id="Advice0815">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781974700523.jpg" alt="DEMON SLAYER: KIMETSU NO YAIBA, VOL. 1" width="180" height="256" loading="lazy">
+                      <h3 class="title">DEMON SLAYER:...</h3>
+                      <p class="author">Koyoharu Gotouge</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice08btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="09">
+                    <div class="cards-heading">
+                      <h3>HARDCOVER FICTION</h3>
+                    </div>
+                    <div class="cards cards09" id="Hardcover Fiction01">
+                    <div class="card" id="Advice091">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780385547345.jpg" alt="LESSONS IN CHEMISTRY" width="180" height="256" loading="lazy">
+                      <h3 class="title">LESSONS IN...</h3>
+                      <p class="author">Bonnie Garmus</p>
+                    </div>
+                    <div class="card" id="Advice092">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501117299.jpg" alt="HANG THE MOON" width="180" height="256" loading="lazy">
+                      <h3 class="title">HANG THE MOON</h3>
+                      <p class="author">Jeannette Walls</p>
+                    </div>
+                    <div class="card" id="Advice093">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593243732.jpg" alt="HELLO BEAUTIFUL" width="180" height="256" loading="lazy">
+                      <h3 class="title">HELLO BEAUTIFUL</h3>
+                      <p class="author">Ann Napolitano</p>
+                    </div>
+                    <div class="card" id="Advice094">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780525539803.jpg" alt="LOYALTY" width="180" height="256" loading="lazy">
+                      <h3 class="title">LOYALTY</h3>
+                      <p class="author">Lisa Scottoline</p>
+                    </div>
+                    <div class="card" id="Advice095">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593321201.jpg" alt="TOMORROW, AND TOMORROW, AND TOMORROW" width="180" height="256" loading="lazy">
+                      <h3 class="title">TOMORROW, AND...</h3>
+                      <p class="author">Gabrielle Zevin</p>
+                    </div>
+                    <div class="card" id="Advice096">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781538748367.jpg" alt="I WILL FIND YOU" width="180" height="256" loading="lazy">
+                      <h3 class="title">I WILL FIND YOU</h3>
+                      <p class="author">Harlan Coben</p>
+                    </div>
+                    <div class="card" id="Advice097">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316457378.jpg" alt="COUNTDOWN" width="180" height="256" loading="lazy">
+                      <h3 class="title">COUNTDOWN</h3>
+                      <p class="author">JAMES PATTERSON AND BRENDAN...</p>
+                    </div>
+                    <div class="card" id="Advice098">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593490693.jpg" alt="PINEAPPLE STREET" width="180" height="256" loading="lazy">
+                      <h3 class="title">PINEAPPLE STREET</h3>
+                      <p class="author">Jenny Jackson</p>
+                    </div>
+                    <div class="card" id="Advice099">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063251922.jpg" alt="DEMON COPPERHEAD" width="180" height="256" loading="lazy">
+                      <h3 class="title">DEMON COPPERHEAD</h3>
+                      <p class="author">Barbara Kingsolver</p>
+                    </div>
+                    <div class="card" id="Advice0910">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063204157.jpg" alt="REMARKABLY BRIGHT CREATURES" width="180" height="256" loading="lazy">
+                      <h3 class="title">REMARKABLY BRIGHT...</h3>
+                      <p class="author">Shel Van Pelt</p>
+                    </div>
+                    <div class="card" id="Advice0911">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781984879295.jpg" alt="SOMEONE ELSE'S SHOES" width="180" height="256" loading="lazy">
+                      <h3 class="title">SOMEONE ELSE'S...</h3>
+                      <p class="author">Jojo Moyes</p>
+                    </div>
+                    <div class="card" id="Advice0912">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593331309.jpg" alt="STORM WATCH" width="180" height="256" loading="lazy">
+                      <h3 class="title">STORM WATCH</h3>
+                      <p class="author">C.J. Box</p>
+                    </div>
+                    <div class="card" id="Advice0913">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316543033.jpg" alt="ABOVE GROUND" width="180" height="256" loading="lazy">
+                      <h3 class="title">ABOVE GROUND</h3>
+                      <p class="author">Clint Smith</p>
+                    </div>
+                    <div class="card" id="Advice0914">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593490143.jpg" alt="I HAVE SOME QUESTIONS FOR YOU" width="180" height="256" loading="lazy">
+                      <h3 class="title">I HAVE SOME...</h3>
+                      <p class="author">Rebecca Makkai</p>
+                    </div>
+                    <div class="card" id="Advice0915">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781984818386.jpg" alt="MAD HONEY" width="180" height="256" loading="lazy">
+                      <h3 class="title">MAD HONEY</h3>
+                      <p class="author">JODI PICOULT AND JENNIFER...</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice09btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="010">
+                    <div class="cards-heading">
+                      <h3>HARDCOVER NONFICTION</h3>
+                    </div>
+                    <div class="cards cards010" id="Hardcover Nonfiction01">
+                    <div class="card" id="Advice0101">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593236598.jpg" alt="OUTLIVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">OUTLIVE</h3>
+                      <p class="author">PETER ATTIA WITH BILL...</p>
+                    </div>
+                    <div class="card" id="Advice0102">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593239919.jpg" alt="POVERTY, BY AMERICA" width="180" height="256" loading="lazy">
+                      <h3 class="title">POVERTY, BY...</h3>
+                      <p class="author">Matthew Desmond</p>
+                    </div>
+                    <div class="card" id="Advice0103">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781982185824.jpg" alt="I'M GLAD MY MOM DIED" width="180" height="256" loading="lazy">
+                      <h3 class="title">I'M GLAD MY MOM...</h3>
+                      <p class="author">Jennette McCurdy</p>
+                    </div>
+                    <div class="card" id="Advice0104">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593593806.jpg" alt="SPARE" width="180" height="256" loading="lazy">
+                      <h3 class="title">SPARE</h3>
+                      <p class="author">Prince Harry</p>
+                    </div>
+                    <div class="card" id="Advice0105">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063309661.jpg" alt="SAVED" width="180" height="256" loading="lazy">
+                      <h3 class="title">SAVED</h3>
+                      <p class="author">Benjamin Hall</p>
+                    </div>
+                    <div class="card" id="Advice0106">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593237465.jpg" alt="THE LIGHT WE CARRY" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE LIGHT WE CARRY</h3>
+                      <p class="author">Michelle Obama</p>
+                    </div>
+                    <div class="card" id="Advice0107">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063276000.jpg" alt="THE COURAGE TO BE FREE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE COURAGE TO BE...</h3>
+                      <p class="author">Ron DeSantis</p>
+                    </div>
+                    <div class="card" id="Advice0108">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063224629.jpg" alt="PARIS" width="180" height="256" loading="lazy">
+                      <h3 class="title">PARIS</h3>
+                      <p class="author">Paris Hilton</p>
+                    </div>
+                    <div class="card" id="Advice0109">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780735223370.jpg" alt="HUMANLY POSSIBLE" width="180" height="256" loading="lazy">
+                      <h3 class="title">HUMANLY POSSIBLE</h3>
+                      <p class="author">Sarah Bakewell</p>
+                    </div>
+                    <div class="card" id="Advice01010">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593139134.jpg" alt="GREENLIGHTS" width="180" height="256" loading="lazy">
+                      <h3 class="title">GREENLIGHTS</h3>
+                      <p class="author">Matthew McConaughey</p>
+                    </div>
+                    <div class="card" id="Advice01011">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593238714.jpg" alt="IT'S OK TO BE ANGRY ABOUT CAPITALISM" width="180" height="256" loading="lazy">
+                      <h3 class="title">IT'S OK TO BE...</h3>
+                      <p class="author">BERNIE SANDERS WITH JOHN...</p>
+                    </div>
+                    <div class="card" id="Advice01012">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781496472670.jpg" alt="ALL MY KNOTTED-UP LIFE" width="180" height="256" loading="lazy">
+                      <h3 class="title">ALL MY KNOTTED-UP...</h3>
+                      <p class="author">Beth Moore</p>
+                    </div>
+                    <div class="card" id="Advice01013">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250223180.jpg" alt="WHAT HAPPENED TO YOU?" width="180" height="256" loading="lazy">
+                      <h3 class="title">WHAT HAPPENED TO...</h3>
+                      <p class="author">BRUCE D. PERRY AND OPRAH...</p>
+                    </div>
+                    <div class="card" id="Advice01014">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781982169442.jpg" alt="RINGMASTER" width="180" height="256" loading="lazy">
+                      <h3 class="title">RINGMASTER</h3>
+                      <p class="author">Abraham Riesman</p>
+                    </div>
+                    <div class="card" id="Advice01015">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593083888.jpg" alt="THE MYTH OF NORMAL" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE MYTH OF NORMAL</h3>
+                      <p class="author">Gabor Maté with Daniel Maté</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice010btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="011">
+                    <div class="cards-heading">
+                      <h3>MASS MARKET MONTHLY</h3>
+                    </div>
+                    <div class="cards cards011" id="Mass Market Monthly01">
+                    <div class="card" id="Advice0111">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781538753095.jpg" alt="DEATH OF THE BLACK WIDOW" width="180" height="256" loading="lazy">
+                      <h3 class="title">DEATH OF THE BLACK...</h3>
+                      <p class="author">JAMES PATTERSON AND J.D....</p>
+                    </div>
+                    <div class="card" id="Advice0112">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781538719725.jpg" alt="MERCY" width="180" height="256" loading="lazy">
+                      <h3 class="title">MERCY</h3>
+                      <p class="author">David Baldacci</p>
+                    </div>
+                    <div class="card" id="Advice0113">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593422724.jpg" alt="TOM CLANCY: ZERO HOUR" width="180" height="256" loading="lazy">
+                      <h3 class="title">TOM CLANCY: ZERO...</h3>
+                      <p class="author">Don Bentley</p>
+                    </div>
+                    <div class="card" id="Advice0114">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781420155549.jpg" alt="GETTING EVEN" width="180" height="256" loading="lazy">
+                      <h3 class="title">GETTING EVEN</h3>
+                      <p class="author">Lisa Jackson</p>
+                    </div>
+                    <div class="card" id="Advice0115">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780061081859.jpg" alt="ONE NIGHT" width="180" height="256" loading="lazy">
+                      <h3 class="title">ONE NIGHT</h3>
+                      <p class="author">Debbie Macomber</p>
+                    </div>
+                    <div class="card" id="Advice0116">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781984821645.jpg" alt="BEAUTIFUL" width="180" height="256" loading="lazy">
+                      <h3 class="title">BEAUTIFUL</h3>
+                      <p class="author">Danielle Steel</p>
+                    </div>
+                    <div class="card" id="Advice0117">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780778386131.jpg" alt="THEN YOU CAME ALONG" width="180" height="256" loading="lazy">
+                      <h3 class="title">THEN YOU CAME...</h3>
+                      <p class="author">Debbie Macomber</p>
+                    </div>
+                    <div class="card" id="Advice0118">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781335426017.jpg" alt="A PLACE TO CALL HOME" width="180" height="256" loading="lazy">
+                      <h3 class="title">A PLACE TO CALL...</h3>
+                      <p class="author">Nora Roberts</p>
+                    </div>
+                    <div class="card" id="Advice0119">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593359884.jpg" alt="A BRIGHT NEW DAY" width="180" height="256" loading="lazy">
+                      <h3 class="title">A BRIGHT NEW DAY</h3>
+                      <p class="author">Debbie Macomber</p>
+                    </div>
+                    <div class="card" id="Advice01110">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593331262.jpg" alt="SHADOWS REEL" width="180" height="256" loading="lazy">
+                      <h3 class="title">SHADOWS REEL</h3>
+                      <p class="author">C.J. Box</p>
+                    </div>
+                    <div class="card" id="Advice01111">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316499408.jpg" alt="THE RED BOOK" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE RED BOOK</h3>
+                      <p class="author">JAMES PATTERSON AND DAVID...</p>
+                    </div>
+                    <div class="card" id="Advice01112">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781982154875.jpg" alt="GAME ON" width="180" height="256" loading="lazy">
+                      <h3 class="title">GAME ON</h3>
+                      <p class="author">Janet Evanovich</p>
+                    </div>
+                    <div class="card" id="Advice01113">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781420154931.jpg" alt="ABSOLUTE FEAR" width="180" height="256" loading="lazy">
+                      <h3 class="title">ABSOLUTE FEAR</h3>
+                      <p class="author">Lisa Jackson</p>
+                    </div>
+                    <div class="card" id="Advice01114">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781984821713.jpg" alt="HIGH STAKES" width="180" height="256" loading="lazy">
+                      <h3 class="title">HIGH STAKES</h3>
+                      <p class="author">Danielle Steel</p>
+                    </div>
+                    <div class="card" id="Advice01115">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250875051.jpg" alt="HERE'S TO US" width="180" height="256" loading="lazy">
+                      <h3 class="title">HERE'S TO US</h3>
+                      <p class="author">Nora Roberts</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice011btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="012">
+                    <div class="cards-heading">
+                      <h3>MIDDLE GRADE PAPERBACK MONTHLY</h3>
+                    </div>
+                    <div class="cards cards012" id="Middle Grade Paperback Monthly01">
+                    <div class="card" id="Advice0121">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250144058.jpg" alt="WISH" width="180" height="256" loading="lazy">
+                      <h3 class="title">WISH</h3>
+                      <p class="author">Barbara O'Connor</p>
+                    </div>
+                    <div class="card" id="Advice0122">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780061992278.jpg" alt="THE ONE AND ONLY IVAN" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE ONE AND ONLY...</h3>
+                      <p class="author">Katherine Applegate.</p>
+                    </div>
+                    <div class="card" id="Advice0123">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316381994.jpg" alt="THE WILD ROBOT" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE WILD ROBOT</h3>
+                      <p class="author">Peter Brown</p>
+                    </div>
+                    <div class="card" id="Advice0124">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780547577319.jpg" alt="A LONG WALK TO WATER" width="180" height="256" loading="lazy">
+                      <h3 class="title">A LONG WALK TO...</h3>
+                      <p class="author">Linda Sue Park</p>
+                    </div>
+                    <div class="card" id="Advice0125">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062991317.jpg" alt="THE ONE AND ONLY BOB" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE ONE AND ONLY...</h3>
+                      <p class="author">Katherine Applegate.</p>
+                    </div>
+                    <div class="card" id="Advice0126">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780399252518.jpg" alt="BROWN GIRL DREAMING" width="180" height="256" loading="lazy">
+                      <h3 class="title">BROWN GIRL...</h3>
+                      <p class="author">Jacqueline Woodson</p>
+                    </div>
+                    <div class="card" id="Advice0127">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062895936.jpg" alt="A WOLF CALLED WANDER" width="180" height="256" loading="lazy">
+                      <h3 class="title">A WOLF CALLED...</h3>
+                      <p class="author">Rosanne Parry.</p>
+                    </div>
+                    <div class="card" id="Advice0128">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338053807.jpg" alt="RESTART" width="180" height="256" loading="lazy">
+                      <h3 class="title">RESTART</h3>
+                      <p class="author">Gordon Korman</p>
+                    </div>
+                    <div class="card" id="Advice0129">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781524715700.jpg" alt="WHEN YOU TRAP A TIGER" width="180" height="256" loading="lazy">
+                      <h3 class="title">WHEN YOU TRAP A...</h3>
+                      <p class="author">Tae Keller</p>
+                    </div>
+                    <div class="card" id="Advice01210">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781416971719.jpg" alt="OUT OF MY MIND" width="180" height="256" loading="lazy">
+                      <h3 class="title">OUT OF MY MIND</h3>
+                      <p class="author">Sharon M. Draper</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice012btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="013">
+                    <div class="cards-heading">
+                      <h3>PAPERBACK NONFICTION</h3>
+                    </div>
+                    <div class="cards cards013" id="Paperback Nonfiction01">
+                    <div class="card" id="Advice0131">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780670785933.jpg" alt="THE BODY KEEPS THE SCORE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE BODY KEEPS THE...</h3>
+                      <p class="author">Bessel van der Kolk</p>
+                    </div>
+                    <div class="card" id="Advice0132">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780525657743.jpg" alt="CRYING IN H MART" width="180" height="256" loading="lazy">
+                      <h3 class="title">CRYING IN H MART</h3>
+                      <p class="author">Michelle Zauner</p>
+                    </div>
+                    <div class="card" id="Advice0133">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780060959470.jpg" alt="ALL ABOUT LOVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">ALL ABOUT LOVE</h3>
+                      <p class="author">bell hooks</p>
+                    </div>
+                    <div class="card" id="Advice0134">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781571313560.jpg" alt="BRAIDING SWEETGRASS" width="180" height="256" loading="lazy">
+                      <h3 class="title">BRAIDING...</h3>
+                      <p class="author">Robin Wall Kimmerer</p>
+                    </div>
+                    <div class="card" id="Advice0135">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781429969352.jpg" alt="THINKING, FAST AND SLOW" width="180" height="256" loading="lazy">
+                      <h3 class="title">THINKING, FAST AND...</h3>
+                      <p class="author">Daniel Kahneman</p>
+                    </div>
+                    <div class="card" id="Advice0136">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780385534246.jpg" alt="KILLERS OF THE FLOWER MOON" width="180" height="256" loading="lazy">
+                      <h3 class="title">KILLERS OF THE...</h3>
+                      <p class="author">David Grann</p>
+                    </div>
+                    <div class="card" id="Advice0137">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781524746728.jpg" alt="DOPAMINE NATION" width="180" height="256" loading="lazy">
+                      <h3 class="title">DOPAMINE NATION</h3>
+                      <p class="author">Anna Lembke</p>
+                    </div>
+                    <div class="card" id="Advice0138">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780743247542.jpg" alt="THE GLASS CASTLE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE GLASS CASTLE</h3>
+                      <p class="author">Jeannette Walls</p>
+                    </div>
+                    <div class="card" id="Advice0139">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316478526.jpg" alt="TALKING TO STRANGERS" width="180" height="256" loading="lazy">
+                      <h3 class="title">TALKING TO...</h3>
+                      <p class="author">Malcolm Gladwell</p>
+                    </div>
+                    <div class="card" id="Advice01310">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780812994520.jpg" alt="JUST MERCY" width="180" height="256" loading="lazy">
+                      <h3 class="title">JUST MERCY</h3>
+                      <p class="author">Bryan Stevenson</p>
+                    </div>
+                    <div class="card" id="Advice01311">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501111129.jpg" alt="GRIT" width="180" height="256" loading="lazy">
+                      <h3 class="title">GRIT</h3>
+                      <p class="author">Angela Duckworth</p>
+                    </div>
+                    <div class="card" id="Advice01312">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593230251.jpg" alt="CASTE" width="180" height="256" loading="lazy">
+                      <h3 class="title">CASTE</h3>
+                      <p class="author">Isabel Wilkerson</p>
+                    </div>
+                    <div class="card" id="Advice01313">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780525555216.jpg" alt="THE ANTHROPOCENE REVIEWED" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE ANTHROPOCENE...</h3>
+                      <p class="author">John Green</p>
+                    </div>
+                    <div class="card" id="Advice01314">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062968791.jpg" alt="EVERYTHING I KNOW ABOUT LOVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">EVERYTHING I KNOW...</h3>
+                      <p class="author">Dolly Alderton</p>
+                    </div>
+                    <div class="card" id="Advice01315">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780735217959.jpg" alt="THE NINETIES" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE NINETIES</h3>
+                      <p class="author">Chuck Klosterman</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice013btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="014">
+                    <div class="cards-heading">
+                      <h3>PICTURE BOOKS</h3>
+                    </div>
+                    <div class="cards cards014" id="Picture Books01">
+                    <div class="card" id="Advice0141">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781492638179.jpg" alt="HOW TO CATCH THE EASTER BUNNY" width="180" height="256" loading="lazy">
+                      <h3 class="title">HOW TO CATCH THE...</h3>
+                      <p class="author">ADAM WALLACE AND ANDY...</p>
+                    </div>
+                    <div class="card" id="Advice0142">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062198679.jpg" alt="PETE THE CAT: BIG EASTER ADVENTURE" width="180" height="256" loading="lazy">
+                      <h3 class="title">PETE THE CAT: BIG...</h3>
+                      <p class="author">James Dean and Kimberly Dean</p>
+                    </div>
+                    <div class="card" id="Advice0143">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062975676.jpg" alt="THE GOOD EGG PRESENTS: THE GREAT EGGSCAPE!" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE GOOD EGG...</h3>
+                      <p class="author">Jory John.</p>
+                    </div>
+                    <div class="card" id="Advice0144">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781368076982.jpg" alt="WE DON'T LOSE OUR CLASS GOLDFISH" width="180" height="256" loading="lazy">
+                      <h3 class="title">WE DON'T LOSE OUR...</h3>
+                      <p class="author">Ryan T. Higgins</p>
+                    </div>
+                    <div class="card" id="Advice0145">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593621059.jpg" alt="HAPPY EASTER FROM THE CRAYONS" width="180" height="256" loading="lazy">
+                      <h3 class="title">HAPPY EASTER FROM...</h3>
+                      <p class="author">Drew Daywalt.</p>
+                    </div>
+                    <div class="card" id="Advice0146">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593567272.jpg" alt="LITTLE DAYMOND LEARNS TO EARN" width="180" height="256" loading="lazy">
+                      <h3 class="title">LITTLE DAYMOND...</h3>
+                      <p class="author">Daymond John.</p>
+                    </div>
+                    <div class="card" id="Advice0147">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780803736801.jpg" alt="DRAGONS LOVE TACOS" width="180" height="256" loading="lazy">
+                      <h3 class="title">DRAGONS LOVE TACOS</h3>
+                      <p class="author">Adam Rubin.</p>
+                    </div>
+                    <div class="card" id="Advice0148">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780385376716.jpg" alt="THE WONDERFUL THINGS YOU WILL BE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE WONDERFUL...</h3>
+                      <p class="author">Emily Winfield Martin</p>
+                    </div>
+                    <div class="card" id="Advice0149">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780399255373.jpg" alt="THE DAY THE CRAYONS QUIT" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE DAY THE...</h3>
+                      <p class="author">Drew Daywalt.</p>
+                    </div>
+                    <div class="card" id="Advice01410">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780803741713.jpg" alt="THE BOOK WITH NO PICTURES" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE BOOK WITH NO...</h3>
+                      <p class="author">B.J. Novak</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice014btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="015">
+                    <div class="cards-heading">
+                      <h3>SERIES BOOKS</h3>
+                    </div>
+                    <div class="cards cards015" id="Series Books01">
+                    <div class="card" id="Advice0151">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781419711329.jpg" alt="DIARY OF A WIMPY KID" width="180" height="256" loading="lazy">
+                      <h3 class="title">DIARY OF A WIMPY...</h3>
+                      <p class="author">and Jeff Kinney</p>
+                    </div>
+                    <div class="card" id="Advice0152">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593379851.jpg" alt="A GOOD GIRL'S GUIDE TO MURDER" width="180" height="256" loading="lazy">
+                      <h3 class="title">A GOOD GIRL'S...</h3>
+                      <p class="author">Holly Jackson</p>
+                    </div>
+                    <div class="card" id="Advice0153">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780545663267.jpg" alt="THE HUNGER GAMES" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE HUNGER GAMES</h3>
+                      <p class="author">Suzanne Collins</p>
+                    </div>
+                    <div class="card" id="Advice0154">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780590353427.jpg" alt="HARRY POTTER" width="180" height="256" loading="lazy">
+                      <h3 class="title">HARRY POTTER</h3>
+                      <p class="author">J.K. Rowling</p>
+                    </div>
+                    <div class="card" id="Advice0155">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250027436.jpg" alt="SHADOW AND BONE TRILOGY" width="180" height="256" loading="lazy">
+                      <h3 class="title">SHADOW AND BONE...</h3>
+                      <p class="author">Leigh Bardugo</p>
+                    </div>
+                    <div class="card" id="Advice0156">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780545175340.jpg" alt="CAPTAIN UNDERPANTS" width="180" height="256" loading="lazy">
+                      <h3 class="title">CAPTAIN UNDERPANTS</h3>
+                      <p class="author">and Dav Pilkey</p>
+                    </div>
+                    <div class="card" id="Advice0157">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781423131892.jpg" alt="PERCY JACKSON &amp; THE OLYMPIANS" width="180" height="256" loading="lazy">
+                      <h3 class="title">PERCY JACKSON &...</h3>
+                      <p class="author">Rick Riordan</p>
+                    </div>
+                    <div class="card" id="Advice0158">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316370950.jpg" alt="THE INHERITANCE GAMES" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE INHERITANCE...</h3>
+                      <p class="author">Jennifer Lynn Barnes</p>
+                    </div>
+                    <div class="card" id="Advice0159">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781416995586.jpg" alt="THE SUMMER I TURNED PRETTY TRILOGY" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE SUMMER I...</h3>
+                      <p class="author">Jenny Han</p>
+                    </div>
+                    <div class="card" id="Advice01510">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780448482996.jpg" alt="WHO WAS/IS . . . ?" width="180" height="256" loading="lazy">
+                      <h3 class="title">WHO WAS/IS . . . ?</h3>
+                      <p class="author">JIM GIGLIOTTI AND OTHERS;...</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice015btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="016">
+                    <div class="cards-heading">
+                      <h3>TRADE FICTION PAPERBACK</h3>
+                    </div>
+                    <div class="cards cards016" id="Trade Fiction Paperback01">
+                    <div class="card" id="Advice0161">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668001226.jpg" alt="IT STARTS WITH US" width="180" height="256" loading="lazy">
+                      <h3 class="title">IT STARTS WITH US</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice0162">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781524798628.jpg" alt="DAISY JONES &amp; THE SIX" width="180" height="256" loading="lazy">
+                      <h3 class="title">DAISY JONES & THE...</h3>
+                      <p class="author">Taylor Jenkins Reid</p>
+                    </div>
+                    <div class="card" id="Advice0163">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501110375.jpg" alt="IT ENDS WITH US" width="180" height="256" loading="lazy">
+                      <h3 class="title">IT ENDS WITH US</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice0164">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501161933.jpg" alt="THE SEVEN HUSBANDS OF EVELYN HUGO" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE SEVEN HUSBANDS...</h3>
+                      <p class="author">Taylor Jenkins Reid</p>
+                    </div>
+                    <div class="card" id="Advice0165">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781335004888.jpg" alt="NEVER NEVER" width="180" height="256" loading="lazy">
+                      <h3 class="title">NEVER NEVER</h3>
+                      <p class="author">COLLEEN HOOVER AND TARRYN...</p>
+                    </div>
+                    <div class="card" id="Advice0166">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781791392796.jpg" alt="VERITY" width="180" height="256" loading="lazy">
+                      <h3 class="title">VERITY</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice0167">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781476753195.jpg" alt="UGLY LOVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">UGLY LOVE</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice0168">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781501171345.jpg" alt="THE LAST THING HE TOLD ME" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE LAST THING HE...</h3>
+                      <p class="author">Laura Dave</p>
+                    </div>
+                    <div class="card" id="Advice0169">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668021910.jpg" alt="HEART BONES" width="180" height="256" loading="lazy">
+                      <h3 class="title">HEART BONES</h3>
+                      <p class="author">Colleen Hoover</p>
+                    </div>
+                    <div class="card" id="Advice01610">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781945631832.jpg" alt="THINGS WE NEVER GOT OVER" width="180" height="256" loading="lazy">
+                      <h3 class="title">THINGS WE NEVER...</h3>
+                      <p class="author">Lucy Score</p>
+                    </div>
+                    <div class="card" id="Advice01611">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250178602.jpg" alt="THE FOUR WINDS" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE FOUR WINDS</h3>
+                      <p class="author">Kristin Hannah</p>
+                    </div>
+                    <div class="card" id="Advice01612">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250301697.jpg" alt="THE SILENT PATIENT" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE SILENT PATIENT</h3>
+                      <p class="author">Alex Michaelides</p>
+                    </div>
+                    <div class="card" id="Advice01613">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781728276113.jpg" alt="THINGS WE HIDE FROM THE LIGHT" width="180" height="256" loading="lazy">
+                      <h3 class="title">THINGS WE HIDE...</h3>
+                      <p class="author">Lucy Score</p>
+                    </div>
+                    <div class="card" id="Advice01614">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781668026038.jpg" alt="ICEBREAKER" width="180" height="256" loading="lazy">
+                      <h3 class="title">ICEBREAKER</h3>
+                      <p class="author">Hannah Grace</p>
+                    </div>
+                    <div class="card" id="Advice01615">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781982166793.jpg" alt="ONE ITALIAN SUMMER" width="180" height="256" loading="lazy">
+                      <h3 class="title">ONE ITALIAN SUMMER</h3>
+                      <p class="author">Rebecca Serle</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice016btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="017">
+                    <div class="cards-heading">
+                      <h3>YOUNG ADULT HARDCOVER</h3>
+                    </div>
+                    <div class="cards cards017" id="Young Adult Hardcover01">
+                    <div class="card" id="Advice0171">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593374160.jpg" alt="FIVE SURVIVE" width="180" height="256" loading="lazy">
+                      <h3 class="title">FIVE SURVIVE</h3>
+                      <p class="author">Holly Jackson</p>
+                    </div>
+                    <div class="card" id="Advice0172">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781665918688.jpg" alt="A DOOR IN THE DARK" width="180" height="256" loading="lazy">
+                      <h3 class="title">A DOOR IN THE DARK</h3>
+                      <p class="author">Scott Reintgen</p>
+                    </div>
+                    <div class="card" id="Advice0173">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781338885101.jpg" alt="NICK AND CHARLIE" width="180" height="256" loading="lazy">
+                      <h3 class="title">NICK AND CHARLIE</h3>
+                      <p class="author">Alice Oseman</p>
+                    </div>
+                    <div class="card" id="Advice0174">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781419760860.jpg" alt="LIGHTLARK" width="180" height="256" loading="lazy">
+                      <h3 class="title">LIGHTLARK</h3>
+                      <p class="author">Alex Aster</p>
+                    </div>
+                    <div class="card" id="Advice0175">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780063240803.jpg" alt="THE FIRST TO DIE AT THE END" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE FIRST TO DIE...</h3>
+                      <p class="author">Adam Silvera</p>
+                    </div>
+                    <div class="card" id="Advice0176">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781250852816.jpg" alt="STARS AND SMOKE" width="180" height="256" loading="lazy">
+                      <h3 class="title">STARS AND SMOKE</h3>
+                      <p class="author">Marie Lu</p>
+                    </div>
+                    <div class="card" id="Advice0177">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780316519045.jpg" alt="THE STOLEN HEIR" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE STOLEN HEIR</h3>
+                      <p class="author">Holly Black</p>
+                    </div>
+                    <div class="card" id="Advice0178">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781547613212.jpg" alt="SHE IS A HAUNTING" width="180" height="256" loading="lazy">
+                      <h3 class="title">SHE IS A HAUNTING</h3>
+                      <p class="author">Trang Thanh Tran</p>
+                    </div>
+                    <div class="card" id="Advice0179">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062665782.jpg" alt="A THOUSAND HEARTBEATS" width="180" height="256" loading="lazy">
+                      <h3 class="title">A THOUSAND...</h3>
+                      <p class="author">Kiera Cass</p>
+                    </div>
+                    <div class="card" id="Advice01710">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593463338.jpg" alt="THE DAVENPORTS" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE DAVENPORTS</h3>
+                      <p class="author">Krystal Marquis</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice017btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+
+                  <div class="main-card" id="018">
+                    <div class="cards-heading">
+                      <h3>YOUNG ADULT PAPERBACK MONTHLY</h3>
+                    </div>
+                    <div class="cards cards018" id="Young Adult Paperback Monthly01">
+                    <div class="card" id="Advice0181">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781402277832.jpg" alt="IF HE HAD BEEN WITH ME" width="180" height="256" loading="lazy">
+                      <h3 class="title">IF HE HAD BEEN...</h3>
+                      <p class="author">Laura Nowlin</p>
+                    </div>
+                    <div class="card" id="Advice0182">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781101934715.jpg" alt="GIRL IN PIECES" width="180" height="256" loading="lazy">
+                      <h3 class="title">GIRL IN PIECES</h3>
+                      <p class="author">Kathleen Glasgow</p>
+                    </div>
+                    <div class="card" id="Advice0183">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780593481493.jpg" alt="THE ISLAND" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE ISLAND</h3>
+                      <p class="author">Natasha Preston</p>
+                    </div>
+                    <div class="card" id="Advice0184">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781481449359.jpg" alt="THE WAY I USED TO BE" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE WAY I USED TO...</h3>
+                      <p class="author">Amber Smith</p>
+                    </div>
+                    <div class="card" id="Advice0185">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781524714680.jpg" alt="ONE OF US IS LYING" width="180" height="256" loading="lazy">
+                      <h3 class="title">ONE OF US IS LYING</h3>
+                      <p class="author">Karen M. McManus</p>
+                    </div>
+                    <div class="card" id="Advice0186">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780062457790.jpg" alt="THEY BOTH DIE AT THE END" width="180" height="256" loading="lazy">
+                      <h3 class="title">THEY BOTH DIE AT...</h3>
+                      <p class="author">Adam Silvera</p>
+                    </div>
+                    <div class="card" id="Advice0187">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781534467637.jpg" alt="BETTER THAN THE MOVIES" width="180" height="256" loading="lazy">
+                      <h3 class="title">BETTER THAN THE...</h3>
+                      <p class="author">Lynn Painter</p>
+                    </div>
+                    <div class="card" id="Advice0188">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780375842207.jpg" alt="THE BOOK THIEF" width="180" height="256" loading="lazy">
+                      <h3 class="title">THE BOOK THIEF</h3>
+                      <p class="author">Markus Zusak</p>
+                    </div>
+                    <div class="card" id="Advice0189">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9780735269934.jpg" alt="IRON WIDOW" width="180" height="256" loading="lazy">
+                      <h3 class="title">IRON WIDOW</h3>
+                      <p class="author">Xiran Jay Zhao</p>
+                    </div>
+                    <div class="card" id="Advice01810">
+                      <img class="books__card-title-img" src="https://storage.googleapis.com/du-prd/books/images/9781627792127.jpg" alt="SIX OF CROWS" width="180" height="256" loading="lazy">
+                      <h3 class="title">SIX OF CROWS</h3>
+                      <p class="author">Leigh Bardugo</p>
+                    </div>
+                    </div>
+                    <div class="cards-button" id="Advice018btn">
+                      <button type="button">SEE MORE</button>
+                    </div>
+                  </div>
+                </div>
+             </div>
+
+             <div class="body-wrapper">
+              <div class="wrapper">
+                <span class="icon-close">
+                  <ion-icon name="close"></ion-icon>
+                </span>
+                <div class="form-box login">
+                  <h2>Login</h2>
+                  <form action="#">
+                    <div class="input-box">
+                      <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                      <input type="email" required>
+                      <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                      <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                      <input type="password" required>
+                      <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                      <label><input type="checkbox">Remember Me</label>
+                      <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                      <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="form-box register">
+                  <h2>Registration</h2>
+                  <form action="#">
+                    <div class="input-box">
+                      <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                      </span>
+                      <input class="register-username" type="text" required>
+                      <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                      <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                      <input class="register-email" type="email" required>
+                      <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                      <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                      <input class="register-password" type="password" required>
+                      <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                      <label><input type="checkbox">agree to the terms & conditions
+                      </label>
+                    </div>
+                    <button type="submit" class="btn register-btn">Register</button>
+                    <div class="login-register">
+                      <p>Already have an account? <a href="#" class="login-link">login</a></p>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+             </div>
+        </div>
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="Support-Script.js"></script>
+        <script src="showmore.js"></script>
+        <script src="darkmode.js"></script>
+        <script src="allcategories.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>
