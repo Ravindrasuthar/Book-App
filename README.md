@@ -13,7 +13,7 @@ The Book App is a simple Web application build using HTML, CSS and JavaScript th
 
 ### HTML
 I have created skeleton using HTML where I have main class("wrapper-body") inside it I have head section div, right navigation bar and a left navigation bar and at the end i have login and register form.
-```
+```javascript
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,7 +52,7 @@ I have created skeleton using HTML where I have main class("wrapper-body") insid
 ### Category Selection
 I have buttons for each main-card section which i can used as click button in eventListner and chang the books in ui, look at the code below how i have selected button and called function to perform task according.
 doit01 function will reload the data first and than remove the remaing data except the card whose detaile is required which i have accessed using the button and list of category in the left navigation bar.
-```
+```javascript
 const mainsel = document.getElementsByClassName("main-card");
 const hedSel = document.querySelector(".right-nav h1");
 
@@ -90,7 +90,7 @@ function doit01(){
 
 ### Dark Mode
 For dark mode i have selected left categories and titles of all the card and added class "do-white" which will change text color to white and background color of body as black as well as whatever is required i have selected that element and changed accordingly using if else condition.
-```
+```javascript
 var flag=false;
 
 const circleSel = document.getElementById("circle");
@@ -158,7 +158,7 @@ function doit(){
 
 ### Support Ukraine 
 I have added picture using display flex and added a button at the bottom to make the list items to move downward for better view, I have used if else condition and a flag based on which i will change position.
-```
+```javascript
 var flag = false;
 
 const arrowSelector = document.querySelector(".support-arrow p");
@@ -185,7 +185,7 @@ function doit(){
 ### Login and Register 
 When a user click on signUp button on top than a pop up will come for login and in he click on register link in login page than loginpage will transformX by -450px and if user click on login link in register page than register page will transfromX by +450px and at tha time of signup click i have made the right nav and left nav opacity to 0 so only login and register page will be shown.
 again when user click on x button on login-register block opacity of right nav and left nave will become 1.
-```
+```javascript
 const wrapper = document.querySelector(".wrapper");
 const bodywrapper = document.querySelector(".body-wrapper");
 const loginLink = document.querySelector(".login-link");
